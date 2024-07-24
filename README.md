@@ -10,6 +10,8 @@ This project depends on Docker to setup database. With Docker installed, clone t
 
 > You must also run migrations to create database tables and run the seed to populate the database with fake data.
 
+First you must create a .env.local file using the same content as .env.local.example. Then follow the commands bellow.
+
 ```sh
 bun i
 docker compose up -d
